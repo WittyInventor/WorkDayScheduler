@@ -1,5 +1,5 @@
-var currentday = moment();
-$("#1a").text(today.format("MMM Do, YYYY"));
+var currentDay = moment();
+$("#currentDay").text(currentDay.format("MMM Do, YYYY"));
 
 var TimeblocksEl = document.querySelector("Timeblocks") 
 TimeblocksEl = moment()
